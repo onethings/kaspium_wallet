@@ -1,0 +1,440 @@
+{
+  "@@locale": "my",
+  "account": "အကောင့်",
+  "accounts": "အကောင့်များ",
+  "ackBackedUp": "မင်းရဲ့လျှို့ဝှက်စာပိုဒ်ကို မိတ္တူကူးထားတာ သေချာရဲ့လား?",
+  "add": "ထည့်ရန်",
+  "addAccount": "အကောင့်ထည့်ရန်",
+  "addContact": "အဆက်အသွယ်ထည့်ရန်",
+  "addNode": "Node ထည့်ရန်",
+  "addNodeFailed": "Kaspa node ကိုထည့်ရန် မအောင်မြင်ပါ",
+  "addNodeFailedMessage": "မအောင်မြင်ခဲ့ပါ - {error}",
+  "@addNodeFailedMessage": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "addNodeSuccess": "Node အောင်မြင်စွာထည့်သွင်းခဲ့သည်။",
+  "addingNodeMessage": "node ဆက်သွယ်နေစဉ် ခဏစောင့်ပါ",
+  "addingNodeTitle": "Node ပေါင်းထည့်ခြင်း",
+  "address": "လိပ်စာ",
+  "addressCopied": "လိပ်စာကူးယူထားသည်။",
+  "addressCopiedFailed": "လိပ်စာကူးယူ၍မရပါ",
+  "addressHint": "လိပ်စာရိုက်ထည့်ပါ",
+  "addressMising": "လိပ်စာတစ်ခုထည့်ပါ",
+  "addressShare": "လိပ်စာမျှဝေရန်",
+  "advancedHeader": "အဆင့်မြင့်",
+  "amount": "ပမာဏ",
+  "amountConfirm": "ပမာဏ {amount} {coin}",
+  "@amountConfirm": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "coin": {
+        "type": "String"
+      }
+    }
+  },
+  "amountMissing": "ပမာဏတစ်ခုထည့်ပါ",
+  "amountZero": "ပမာဏသည် သုညမဖြစ်နိုင်ပါ",
+  "areYouSure": "သေချာလား?",
+  "authBiometricMessage": "ပိုက်ဆံအိတ်ထည့်ရန် စစ်မှန်ကြောင်းသက်သေပြပါ",
+  "authMethod": "စစ်မှန်ကြောင်းအထောက်အထားပြနည်း",
+  "authPinMessage": "ပိုက်ဆံအိတ်ထည့်ရန် PIN ထည့်ပါ",
+  "autoLockHeader": "အလိုအလျောက်လော့ခ်ချခြင်း",
+  "available": "ရရှိနိုင်သည်။",
+  "backupConfirmButton": "ကျွန်တော် မိတ္တူကူးထားပါတယ်",
+  "backupSecretPhrase": "အရန်သိမ်းလျှို့ဝှက်စာပိုဒ်",
+  "biometricsMethod": "ဇီဝတိုင်းတာမှု",
+  "blockExplorer": "Block ဘရောက်ဆာ",
+  "cancel": "ပယ်ဖျက်ရန်",
+  "change": "ပြောင်းလဲခြင်း",
+  "changeAddress": "လိပ်စာပြောင်းရန်",
+  "changeAddressCopied": "လိပ်စာ ကူးယူထားသော ပြောင်းရန်",
+  "changeIndex": "ပြောင်းလဲမှု အညွှန်းကိန်း",
+  "changeIndexParam": "ပြောင်းရန် {addressIndex}",
+  "@changeIndexParam": {
+    "placeholders": {
+      "addressIndex": {
+        "type": "String",
+        "example": "1"
+      }
+    }
+  },
+  "checkCameraPermission": "ကျေးဇူးပြု၍ ကင်မရာခွင့်ပြုချက်များကို စစ်ဆေးပါ",
+  "clipboardEmpty": "ကလစ်ဘုတ်ဗလာ",
+  "close": "ပိတ်",
+  "confirm": "အတည်ပြုရန်",
+  "confirmPasswordHint": "စကားဝှက်ကိုအတည်ပြုပါ",
+  "confirmations": "{confirmations} အတည်ပြုချက်များ",
+  "@confirmations": {
+    "placeholders": {
+      "confirmations": {
+        "type": "String",
+        "example": "2"
+      }
+    }
+  },
+  "confirmed": "အတည်ပြုခဲ့သည်။",
+  "confirming": "အတည်ပြုခြင်း",
+  "contactAdded": "{contactName} ကို အဆက်အသွယ်များသို့ ထည့်ခဲ့သည်။",
+  "@contactAdded": {
+    "placeholders": {
+      "contactName": {
+        "type": "String"
+      }
+    }
+  },
+  "contactAddressCopied": "{address} လိပ်စာကို ကူးယူထားသည်",
+  "@contactAddressCopied": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "contactExists": "အဆက်အသွယ် ရှိပြီးသား",
+  "contactHeader": "ဆက်သွယ်ရန်",
+  "contactInvalid": "မမှန်ကန်သော ဆက်သွယ်ရန်အမည်",
+  "contactNameHint": "အမည် @ ရိုက်ထည့်ပါ",
+  "contactNameMissing": "ဤအဆက်အသွယ်အတွက် အမည်တစ်ခုကို ရွေးချယ်ပါ",
+  "contactRemoved": "{contactName} ကို အဆက်အသွယ်များမှ ဖယ်ရှားလိုက်ပြီ!",
+  "@contactRemoved": {
+    "placeholders": {
+      "contactName": {
+        "type": "String"
+      }
+    }
+  },
+  "contactsHeader": "ဆက်သွယ်ရန်",
+  "contactsImportErr": "အဆက်အသွယ်များကို တင်သွင်းရန် မအောင်မြင်ပါ",
+  "contactsImportSuccess": "အဆက်အသွယ် {noContacts} ကို အောင်မြင်စွာ တင်သွင်းခဲ့သည်",
+  "@contactsImportSuccess": {
+    "placeholders": {
+      "noContacts": {
+        "type": "String"
+      }
+    }
+  },
+  "copied": "ကူးယူထားသည်",
+  "copy": "ကော်ပီ",
+  "copyAddress": "လိပ်စာကိုကော်ပီ",
+  "copyErrorButton": "ကော်ပီအမှား",
+  "createAPasswordHeader": "စကားဝှက်တစ်ခုဖန်တီးပါ။",
+  "createPasswordFirstParagraph": "သင့်ပိုက်ဆံအိတ်တွင် နောက်ထပ်လုံခြုံရေးထည့်ရန် စကားဝှက်တစ်ခု ဖန်တီးနိုင်သည်။",
+  "createPasswordHint": "စကားဝှက်တစ်ခုဖန်တီးပါ",
+  "createPasswordSecondParagraph": "စကားဝှက်သည် စိတ်ကြိုက်ရွေးချယ်နိုင်ပြီး၊ သင့်ပိုက်ဆံအိတ်ကို သင်၏ PIN သို့မဟုတ် ဇီဝဗေဒဆိုင်ရာ အချက်အလက်များဖြင့် ကာကွယ်ထားပါမည်။",
+  "createPasswordSheetHeader": "ဖန်တီးရန်",
+  "currency": "ငွေကြေး",
+  "currencyPoweredBy": "CoinGecko မှ ပံ့ပိုးထားသည်",
+  "defaultAccountName": "လိပ်စာ 1",
+  "defaultNewAccountName": "အကောင့် {addressIndex}",
+  "@defaultNewAccountName": {
+    "placeholders": {
+      "addressIndex": {
+        "type": "int"
+      }
+    }
+  },
+  "defaultWalletName": "ငါ့ပိုက်ဆံအိတ်",
+  "disablePasswordSheetHeader": "ပိတ်ရန်",
+  "disablePasswordSuccess": "စကားဝှက်ကို ပိတ်ထားလိုက်ပြီ",
+  "disableWalletPassword": "ပိုက်ဆံအိတ်စကားဝှက်ကိုပိတ်ရန်",
+  "doContinue": "ဆက်လုပ်ရန်",
+  "donate": "လှူ",
+  "dontShowAgain": "ထပ်မပြပါနဲ့",
+  "emptyCardIntroUtxos": "ဤသည်မှာ UTXO တဘ်ဖြစ်ပါသည်။ သင့်ပိုက်ဆံအိတ်ရှိ UTXO အားလုံးသည် ဤနေရာတွင် ပေါ်လာပါမည်",
+  "emptyResult": "ဗလာရလဒ်",
+  "emptyWalletName": "ပိုက်ဆံအိတ်အမည် ဗလာမဖြစ်နိုင်ပါ",
+  "encryptionFailedError": "ပိုက်ဆံအိတ်စကားဝှက်ကို သတ်မှတ်၍မရပါ",
+  "enterAddress": "လိပ်စာရိုက်ထည့်ပါ",
+  "enterAmount": "ပမာဏထည့်ရန်",
+  "enterNote": "မှတ်စုရိုက်ထည့်ပါ",
+  "enterPasswordHint": "သင့်စကားဝှက်ကိုထည့်ပါ",
+  "errorMessageCopied": "အမှားစာတိုကို ကလစ်ဘုတ်သို့ ကူးယူထားသည်",
+  "exampleCardIntro": "ဒါက ငွေပေးငွေယူတက်ဘ်ပါ။ သင် ငွေပေးငွေယူတစ်ခု ပေးပို့ခြင်း သို့မဟုတ် လက်ခံသည်နှင့် ၎င်းသည် ဤနေရာတွင် ပေါ်လာပါမည်။",
+  "export": "ထုတ်ရန်",
+  "fee": "အခကြေးငွေ",
+  "feeConfirm": "အခကြေးငွေ {amount} {coin}",
+  "@feeConfirm": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "coin": {
+        "type": "String"
+      }
+    }
+  },
+  "feeTitle": "အခကြေးငွေ",
+  "fetchingTransactions": "ငွေလွှဲမှုရယူခြင်း",
+  "fingerprintSeedBackup": "လျှို့ဝှက်စာကြောင်းကို အရန်သိမ်းဆည်းရန် စစ်မှန်ကြောင်းအထောက်အထားပြပါ။",
+  "goBackButton": "ပြန်သွားပါ",
+  "gotItButton": "ရပြီ!",
+  "import": "သွင်းကုန်",
+  "importSecretPhrase": "လျှို့ဝှက်စာပိုဒ်ကို တင်သွင်းပါ",
+  "importSecretPhraseHint": "ကျေးဇူးပြု၍ အောက်တွင် သင်၏ လျှို့ဝှက်စာစု 24 လုံးကို ထည့်ပါ။",
+  "importSecretPhraseHintCombo": "ကျေးဇူးပြု၍ အောက်တွင် သင်၏ လျှို့ဝှက်စာပိုဒ် 12 သို့မဟုတ် 24 ကို ထည့်ပါ။",
+  "importSecretPhraseHintLegacy": "ကျေးဇူးပြု၍ အောက်တွင် သင်၏ လျှို့ဝှက်စာပိုဒ် 12 လုံးကို ထည့်ပါ။",
+  "importWallet": "ပိုက်ဆံအိတ်တင်သွင်းခြင်း",
+  "importWalletDescription": "ကျေးဇူးပြု၍ အောက်တွင် ရွေးချယ်စရာတစ်ခုကို ရွေးပါ။",
+  "instantly": "ချက်ချင်း",
+  "insufficientBalance": "လက်ကျန်ငွေ မလုံလောက်",
+  "insufficientBalanceDetails": "ဤငွေပေးငွေယူအတွက် သင့်တွင် KAS လုံလောက်မှု မရှိပါ။",
+  "invalidAddress": "ထည့်သွင်းထားသောလိပ်စာသည် မမှန်ပါ",
+  "invalidAmount": "မမှန်ကန်သောပမာဏ",
+  "invalidChecksumMessage": "သင့်လျှို့ဝှက်စာကြောင်း\n ထည့်သွင်းထားကြောင်း စစ်ဆေးပါ။",
+  "invalidKpubMessage": "သင့်တိုးချဲ့ထားသော အများသူငှာသော့ကို မှန်ကန်စွာ ထည့်သွင်းထားကြောင်း စစ်ဆေးပါ။",
+  "invalidDestinationAddress": "မမှန်ကန်သောနေရာလိပ်စာ",
+  "invalidPassword": "မမှန်သောစကားဝှက်",
+  "kaspaDevFund": "Kaspa Dev Fund",
+  "kaspiumWallet": "Kaspium ပိုက်ဆံအိတ်",
+  "language": "ဘာသာစကား",
+  "loadingTransactions": "ငွေလွှဲမှုများကို ဖွင့်နေသည်...",
+  "lockAppSetting": "စတင်ချိန်တွင် အတည်ပြုချက် လိုအပ်ပါသည်။",
+  "locked": "လော့ခ်ချထားသည်",
+  "loggingOutMessage": "ထွက်နေသည်...",
+  "logout": "ထွက်ရန်",
+  "logoutDialogContent": "ဤပိုက်ဆံအိတ်မှ ထွက်လိုသည်မှာ သေချာပါသလား။",
+  "logoutOrSwitchWallet": "ထွက်/ပြောင်း ပိုက်ဆံအိတ်",
+  "manage": "စီမံခန့်ခွဲရန်",
+  "manualEntry": "လူကိုယ်တိုင်ဝင်ရောက်မှု",
+  "networkHeader": "ကွန်ရက်",
+  "newAddress": "လိပ်စာအသစ်",
+  "newWallet": "ပိုက်ဆံအိတ်အသစ်",
+  "nextButton": "နောက်တစ်ခု",
+  "no": "မဟုတ်ဘူး",
+  "noContactsExport": "ထုတ်ယူရန် အဆက်အသွယ်များ မရှိတော့ပါ",
+  "noContactsImport": "တင်သွင်းရန် အဆက်အသွယ်အသစ်များ မရှိပါ",
+  "noQrCodeFound": "QR ကုဒ်မတွေ့ပါ",
+  "noSkipButton": "No၊ ကျော်ရန်",
+  "noUppercase": "မဟုတ်ဘူး",
+  "nodeAddress": "Kaspa Node",
+  "nodeDeleteMessage": "ဖျက်ချင်တာသေချာလား",
+  "nodeDeleteTitle": "Kaspa Node Config ကိုဖျက်မလား။",
+  "nodeNameEmpty": "node အမည်ကို ဗလာမဖြစ်နိုင်ပါ",
+  "nodeNameHint": "node အမည်ကို ရိုက်ထည့်ပါ",
+  "nodeUrlHint": "node URL ကိုရိုက်ထည့်ပါ",
+  "nodeUrlInvalid": "မမှန်ကန်သော node URL",
+  "nodesSheetTitle": "Kaspa Nodes",
+  "@notificationTitle": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "off": "ပိတ်",
+  "on": "ဖွင့်",
+  "paperWallet": "စက္ကူပိုက်ဆံအိတ်",
+  "passwordBlank": "စကားဝှက်ဗလာမဖြစ်နိုင်ပါ",
+  "passwordNoLongerRequiredToOpenParagraph": "ဤပိုက်ဆံအိတ်ကိုဖွင့်ရန် စကားဝှက်တစ်ခု မလိုအပ်ပါ။",
+  "passwordWillBeRequiredToOpenParagraph": "ဤပိုက်ဆံအိတ်ကိုဖွင့်ရန် ဤစကားဝှက် လိုအပ်ပါမည်။",
+  "passwordsDontMatch": "စကားဝှက်များ မတိုက်ဆိုင်ပါ",
+  "pasteMnemonicError": "ကလစ်ဘုတ်အကြောင်းအရာသည် မှန်ကန်သောလျှို့ဝှက်စာပိုဒ်မဟုတ်ပါ",
+  "pending": "ဆိုင်းငံ့",
+  "pinConfirmError": "ပင်နံပါတ်များ မတိုက်ဆိုင်ပါ",
+  "pinConfirmTitle": "သင့် PIN ကို အတည်ပြုပါ",
+  "pinCreateTitle": "ဂဏန်း 6 လုံး PIN ကို ဖန်တီးပါ",
+  "pinEnterTitle": "ပင်နံပါတ်ထည့်ပါ",
+  "pinInvalid": "ပင်နံပါတ် မှားယွင်းထည့်သွင်းထားသည်",
+  "pinMethod": "ပင်နံပါတ်",
+  "pinSeedBackup": "PIN ရိုက်ပြီး လျှို့ဝှက်စာပိုဒ် ကို အရန်သိမ်းရန်။",
+  "preferences": "ဦးစားပေးမှုများ",
+  "privacyPolicy": "ကိုယ်ရေးကိုယ်တာ မူဝါဒ",
+  "qrInvalidAddress": "QR ကုဒ်တွင် မှန်ကန်သောလိပ်စာတစ်ခု မပါဝင်ပါ",
+  "qrInvalidSeed": "QR ကုဒ်တွင် တရားဝင်မျိုးစေ့ သို့မဟုတ် သီးသန့်သော့မပါဝင်ပါ",
+  "qrMnemonicError": "QR ကုဒ်တွင် မှန်ကန်သောလျှို့ဝှက်စာပိုဒ်များ မပါဝင်ပါ",
+  "receive": "လက်ခံသည်",
+  "receiveAddress": "လက်ခံလိပ်စာ",
+  "receiveAddressCopied": "လက်ခံလိပ်စာ ကူးယူထားသည်",
+  "receiveIndex": "လက်ခံအညွှန်းကိန်း",
+  "receiveIndexParam": "လက်ခံ {addressIndex}",
+  "@receiveIndexParam": {
+    "placeholders": {
+      "addressIndex": {
+        "type": "String",
+        "example": "1"
+      }
+    }
+  },
+  "received": "လက်ခံသည်",
+  "removeContact": "အဆက်အသွယ်ကို ဖယ်ရှားရန်",
+  "removeContactConfirmation": "သင် {contactName} ကို ဖျက်လိုသည်မှာ သေချာပါသလား။",
+  "@removeContactConfirmation": {
+    "placeholders": {
+      "contactName": {
+        "type": "String"
+      }
+    }
+  },
+  "removeWalletAction": "ပိုက်ဆံအိတ်ကို ဖယ်ရှားရန်",
+  "removeWalletBiometricsMessage": "ပိုက်ဆံအိတ်ကိုဖယ်ရှားရန် စစ်မှန်ကြောင်းအထောက်အထားပြပါ",
+  "removeWalletDetail": "ဤပိုက်ဆံအိတ်ကို ဖယ်ရှားခြင်းသည် လျှို့ဝှက်စာစုနှင့် ပိုက်ဆံအိတ်ဆိုင်ရာ ဒေတာအားလုံးကို ဤစက်ပစ္စည်းမှ ဖယ်ရှားလိုက်ပါမည်။ လျှို့ဝှက်စာပိုဒ်ကို အရန်သိမ်းမထားပါက၊ သင့်ငွေများကို မည်သည့်အခါမျှ ပြန်လည်သုံးစွဲနိုင်တော့မည်မဟုတ်ပါ။",
+  "removeWalletPinMessage": "ပိုက်ဆံအိတ်ကိုဖယ်ရှားရန် PIN ကိုရိုက်ထည့်ပါ",
+  "removeWalletReassurance": "လျှို့ဝှက်စာပိုဒ်ကို မိတ္တူကူးထားသရွေ့ စိတ်ပူစရာ ဘာမှမရှိပါဘူး။",
+  "requireAPasswordToOpenHeader": "ဤပိုက်ဆံအိတ်ကိုဖွင့်ရန် စကားဝှက်တစ်ခု လိုအပ်ပါသလား။",
+  "restartSetupButton": "ပြန်လည်စတင်သတ်မှတ်ခြင်း",
+  "scanQrCode": "QR ကုဒ်ကို စကင်န်ဖတ်ရန်",
+  "scanQrCodeError": "qr ကုဒ်ကို ခွဲခြမ်းစိတ်ဖြာရန် မအောင်မြင်ပါ",
+  "secretInfo": "နောက်စခရင်မှာ၊ မင်းရဲ့လျှို့ဝှက်စာစုကိုတွေ့လိမ့်မယ်။ မင်းရဲ့ငွေတွေကိုဝင်ရောက်ဖို့ စကားဝှက်တစ်ခုပါပဲ။ အဲဒါကို မိတ္တူကူးထားပြီး ဘယ်သူနဲ့မှ မမျှဝေမိဖို့ အရေးကြီးတယ်။",
+  "secretInfoHeader": "ဘေးကင်းရေး ပထမဦးစွာ!",
+  "secretPhrase": "လျှို့ဝှက်စာပိုဒ်",
+  "secretWarning": "သင့်စက်ပစ္စည်း ပျောက်ဆုံးသွားပါက သို့မဟုတ် အပလီကေးရှင်းကို ဖြုတ်လိုက်လျှင် သင့်ငွေများကို ပြန်လည်ရယူရန် သင်၏လျှို့ဝှက်စာပိုဒ်ကို လိုအပ်မည်ဖြစ်ပါသည်။",
+  "securityHeader": "လုံခြုံရေး",
+  "seed": "အစေ့",
+  "seedInvalid": "မျိုးစေ့ မမှန်ပါ",
+  "send": "ပို့ရန်",
+  "sendConfirm": "ပေးပို့ရန်",
+  "sendError": "အမှားတစ်ခု ဖြစ်ပွားခဲ့သည်။ ကျေးဇူးပြု၍ ထပ်စမ်းကြည့်ပါ",
+  "sendNote": "မှတ်ချက်",
+  "sendToAddressTitle": "သို့",
+  "sendTxProgressDescription": "ငွေပေးငွေယူပို့နေစဉ် ခဏစောင့်ပါ",
+  "sendTxProgressTitle": "ငွေလွှဲပို့ခြင်း",
+  "sending": "ပို့ရန်",
+  "sent": "ပို့သည်",
+  "sentTo": "ပေးပို့ရန်",
+  "setPassword": "စကားဝှက်သတ်မှတ်မည်",
+  "setPasswordSuccess": "ပိုက်ဆံအိတ်စကားဝှက်ကို သတ်မှတ်ပြီးပြီ",
+  "setWalletPassword": "ပိုက်ဆံအိတ်စကားဝှက်ကို သတ်မှတ်ပါ",
+  "settingsHeader": "ဆက်တင်များ",
+  "settingsTransfer": "စက္ကူပိုက်ဆံအိတ်မှ Load",
+  "setupFailedMessage": "တစ်ခုခုမှားသွားသည်",
+  "shareKaspium": "မျှဝေ Kaspium",
+  "shareKaspiumSubject": " Kaspium ပိုက်ဆံအိတ်ကိုကြည့်ပါ",
+  "shareKaspiumText": " Kaspium - Kaspa မိုဘိုင်းပိုက်ဆံအိတ်ကို စစ်ကြည့်ပါ။\nဝဘ်ဆိုက် - kaspium.io",
+  "somethingWentWrong": "တစ်ခုခု မှားနေပြီ",
+  "systemDefault": "စနစ် ပုံသေ",
+  "tapToHide": "ဝှက်ရန် တို့ပါ",
+  "tapToReveal": "ဖော်ထုတ်ရန် တို့ပါ",
+  "themeDark": "အမှောင် အပြင်အဆင်",
+  "themeHeader": "အကြောင်းအရာ",
+  "themeLight": "အလင်းအပြင်အဆင်",
+  "thisWallet": "#ဒီပိုက်ဆံအိတ်",
+  "to": "သို့",
+  "toAddress": "လိပ်စာသို့",
+  "tooManyFailedAttempts": "လော့ခ်ဖွင့်ရန် ကြိုးပမ်းမှုများစွာ မအောင်မြင်ပါ။",
+  "totalValue": "စုစုပေါင်းတန်ဖိုး",
+  "transactionId": "ငွေပေးငွေယူ ID",
+  "transactionsUppercase": "လွှဲပြောင်းမှုများ",
+  "transfer": "လွှဲပြောင်းခြင်း",
+  "transferClose": "ဝင်းဒိုးကိုပိတ်ရန် မည်သည့်နေရာတွင်မဆို နှိပ်ပါ။",
+  "transferComplete": "{amount} KAS ကို သင်၏ Kaspium ပိုက်ဆံအိတ်သို့ အောင်မြင်စွာ လွှဲပြောင်းခဲ့သည်။\n",
+  "@transferComplete": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "transferConfirmInfo": "ပမာဏ {amount} KAS လက်ကျန်ငွေကို ရှာတွေ့ခဲ့သည်။",
+  "@transferConfirmInfo": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "transferConfirmInfoSecond": "ငွေလွှဲရန် အတည်ပြုချက်ကို နှိပ်ပါ။\n",
+  "transferConfirmInfoThird": "လွှဲပြောင်းမှုပြီးမြောက်ရန် စက္ကန့်များစွာ ကြာနိုင်သည်။",
+  "transferError": "လွှဲပြောင်းမှုအတွင်း အမှားအယွင်းတစ်ခု ဖြစ်ပွားခဲ့သည်။ ကျေးဇူးပြု၍ နောက်မှ ထပ်ကြိုးစားပါ။",
+  "transferHeader": "ငွေလွှဲများ",
+  "transferIntro": "ဤလုပ်ငန်းစဉ်သည် စက္ကူပိုက်ဆံအိတ်မှ ငွေများကို သင်၏ Kaspium ပိုက်ဆံအိတ်သို့ လွှဲပြောင်းပေးမည်ဖြစ်သည်။\n\nစတင်ရန် \"{button}\" ခလုတ်ကို တို့ပါ။",
+  "@transferIntro": {
+    "placeholders": {
+      "button": {
+        "type": "String"
+      }
+    }
+  },
+  "transferLoading": "လွှဲပြောင်းခြင်း",
+  "transferManualHint": "ကျေးဇူးပြု၍ အောက်တွင် မျိုးစေ့ထည့်ပါ။",
+  "transferNoFunds": "ဤမျိုးစေ့တွင် KAS မရှိပါ။",
+  "transferQrScanError": "ဤ QR ကုဒ်တွင် တရားဝင် မျိုးစေ့များ မပါဝင်ပါ။",
+  "transferQrScanHint": "Kaspa \nseed သို့မဟုတ် သီးသန့်သော့ကို စကင်န်ဖတ်ပါ",
+  "unconfirmed": "အတည်မပြုရသေးသော",
+  "notAccepted": "လက်မခံဘူး",
+  "accepted": "လက်ခံသည်",
+  "unknown": "အမည်မသိ",
+  "unlock": "သော့ဖွင့်ရန်",
+  "unlockBiometrics": "ပိုက်ဆံအိတ်ကိုသော့ဖွင့်ရန် စစ်မှန်ကြောင်းအထောက်အထားပြပါ",
+  "unlockPin": "ပိုက်ဆံအိတ်ကိုသော့ဖွင့်ရန် PIN ကိုရိုက်ထည့်ပါ",
+  "utxosUppercase": "UTXOs",
+  "viewAddress": "လိပ်စာကြည့်ရန်",
+  "viewTransaction": "ငွေလွှဲခြင်းကိုကြည့်ပါ",
+  "walletAddresses": "ပိုက်ဆံအိတ်လိပ်စာများ",
+  "walletName": "ပိုက်ဆံအိတ်အမည်",
+  "walletNameDescription": "သင့်ပိုက်ဆံအိတ်အတွက် နာမည်တစ်ခုထည့်ပါ",
+  "walletNameHint": "ပိုက်ဆံအိတ်အမည်",
+  "walletSetupAddressDiscovery": "ပြေးနေသောလိပ်စာရှာဖွေတွေ့ရှိမှု",
+  "walletSetupMessage": "ပိုက်ဆံအိတ်ကို စနစ်ထည့်သွင်းခြင်း",
+  "walletsTitle": "ပိုက်ဆံအိတ်",
+  "warning": "သတိပေးချက်",
+  "welcomeMessage": "ကြိုဆိုပါတယ်!\n\n၎င်းသည် Kaspium ၏ ဗားရှင်း {version} ဖြစ်ပါသည် - Kaspa အတွက် မိုဘိုင်းပိုက်ဆံအိတ်",
+  "@welcomeMessage": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "welcomeText": " Kaspium မှကြိုဆိုပါသည်။ စတင်ရန်အတွက်၊ သင်သည် ပိုက်ဆံအိတ်အသစ်တစ်ခု ဖန်တီးနိုင်သည် သို့မဟုတ် ရှိပြီးသားတစ်ခုကို ထည့်သွင်းနိုင်သည်။",
+  "xMinutes": "{minutes, plural, =1{1} other{{minutes}}} မိနစ်နောက်",
+  "@xMinutes": {
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "format": "compact"
+      }
+    }
+  },
+  "yes": "ဟုတ်ကဲ့",
+  "yesButton": "ဟုတ်ကဲ့",
+  "yesUppercase": "YES",
+  "nodeNotSyncedException": "Node ကို စင့်ခ်လုပ်မထားပါ",
+  "nodeNoUTXOIndexException": "Node တွင် UTXO အညွှန်းမပါပါ",
+  "nodeSecureConnection": "လုံခြုံသောချိတ်ဆက်မှု",
+  "kaspaUriInvalid": "မမှန်ကန်သော Kaspa URI",
+  "compoundUtxos": "ပေါင်းစုငွေပေးငွေယူများ",
+  "compoundUtxosDescription": "UTXO အများအပြားကို တစ်ခုတည်းအဖြစ် ပေါင်းစပ်ပါ",
+  "compoundUtxosConfirmation": "ပေါင်းစပ်ငွေပေးငွေယူများ?",
+  "compoundingUtxos": "ပေါင်းစပ်ငွေပေးငွေယူများ",
+  "compoundingMessage": "ခဏစောင့်ပါ...",
+  "compoundSuccess": "ပေါင်းစပ်အောင်မြင်သည်",
+  "compoundFailure": "ပေါင်းစပ်ငွေပေးငွေယူများ မအောင်မြင်ပါ",
+  "compoundTooFewUtxos": "အနည်းဆုံး UTXO နှစ်ခု လိုအပ်သည်",
+  "balance": "ချိန်ခွင်လျှာ",
+  "maxSend": "အများဆုံး ပို့ရန်",
+  "compoundUppercased": "ကွန်ပေါင်း",
+  "closeUppercased": "CLOSE",
+  "scanMoreAddresses": "နောက်ထပ်လိပ်စာများအတွက် စကင်န်ဖတ်ရန်",
+  "addressDiscovery": "လိပ်စာရှာဖွေမှု",
+  "scanningTitle": "စကင်န်ဖတ်ခြင်း",
+  "scanningDescription": "လိပ်စာအသစ်များအတွက် စကင်န်ဖတ်နေသည်...",
+  "scanMore": "နောက်ထပ် စကင်န်ဖတ်ရန်",
+  "scanFailedMessage": "စကင်န်မအောင်မြင်ပါ၊ ကျေးဇူးပြုပြီး နောက်မှ ထပ်ကြိုးစားပါ",
+  "indexHeader": "အညွှန်း",
+  "currentIndex": "လက်ရှိ",
+  "scannedIndex": "စကင်န်လုပ်ထားသော",
+  "newIndex": "အသစ်",
+  "addressFilterDialogTitle": "လိပ်စာ စစ်ထုတ်ခြင်း",
+  "addressFilterDialogOptionAllAddresses": "လိပ်စာများအားလုံးကိုကြည့်ပါ",
+  "addressFilterDialogOptionNonZeroBalances": "လက်ကျန်ငွေဖြင့် လိပ်စာများကိုကြည့်ပါ",
+  "importOption24WordsTitle": "24 စကားလုံးလျှို့ဝှက်စာပိုဒ်ကို တင်သွင်းပါ",
+  "importOption24WordsDescription": "Cli Wallet နှင့် Ledger နှင့် တွဲဖက်အသုံးပြုနိုင်သည်",
+  "importOption12WordsTitle": "12 စကားလုံးလျှို့ဝှက်စာပိုဒ်ကို တင်သွင်းပါ",
+  "importOption12WordsDescription": "ဝဘ်ပိုက်ဆံအိတ်နှင့် KDX နှင့် တွဲဖက်အသုံးပြုနိုင်သည်",
+  "importOptionKpubTitle": "Watch Only Wallet ကို တင်သွင်းပါ",
+  "importOptionKpubDescription": "တိုးချဲ့ အများသူငှာသော့ကို အသုံးပြု၍ ပိုက်ဆံအိတ်၏ လက်ကျန်နှင့် ငွေလွှဲမှုများကို စောင့်ကြည့်ပါ",
+  "importKpub": "Watch Only Wallet ကို တင်သွင်းပါ",
+  "importKpubHint": "ကျေးဇူးပြု၍ သင်၏ တိုးချဲ့ အများသူငှာသော့ကို ထည့်ပါ။",
+  "importKpubClipboardError": "ကလစ်ဘုတ်အကြောင်းအရာသည် တရားဝင်သော ထပ်တိုးအများပြည်သူကီးမဟုတ်ပါ",
+  "importKpubQrCodeError": "QR ကုဒ်တွင် သက်တမ်းတိုးထားသော အများသူငှာသော့တစ်ခု မပါဝင်ပါ",
+  "importKpubInvalidMessage": "သင့်တိုးချဲ့ထားသော အများသူငှာသော့ကို မှန်ကန်စွာ ထည့်သွင်းထားကြောင်း စစ်ဆေးပါ။",
+  "receiveAddressListEmpty": "လက်ခံရရှိသည့်လိပ်စာစာရင်းသည် ဗလာဖြစ်သည်",
+  "changeAddressListEmpty": "လိပ်စာပြောင်းရန်စာရင်းသည် ဗလာဖြစ်သည်",
+  "hintAddressListEmpty": "ညာဘက်အပေါ်ထောင့်မှ လိပ်စာစစ်ထုတ်မှုကို စစ်ဆေးပါ"
+}
