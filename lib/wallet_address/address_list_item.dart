@@ -35,9 +35,7 @@ class AddressListItem extends ConsumerWidget {
 
     Future<void> copyAddress() async {
       await Clipboard.setData(ClipboardData(text: address.encoded));
-      final message = address.type == AddressType.receive
-          ? l10n.receiveAddressCopied
-          : l10n.changeAddressCopied;
+      final message = address.type == AddressType.receive ? l10n.receiveAddressCopied : l10n.changeAddressCopied;
       UIUtil.showSnackbar(message, context);
     }
 
@@ -61,9 +59,7 @@ class AddressListItem extends ConsumerWidget {
                         child: Icon(
                           AppIcons.accountwallet,
                           size: 30,
-                          color: accounts.isAddressSelected(address)
-                              ? theme.success
-                              : theme.primary,
+                          color: accounts.isAddressSelected(address) ? theme.success : theme.primary,
                         ),
                       ),
                       Center(
@@ -81,10 +77,11 @@ class AddressListItem extends ConsumerWidget {
                   ),
                 ),
                 // Account name and address
-                Expanded(
-                  child: Column(
-                    children: [
-                      Row(
+                Column(
+                  children: [
+                    Expanded(
+                      flex: 1,
+                      child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Container(
@@ -93,11 +90,14 @@ class AddressListItem extends ConsumerWidget {
                               mainAxisAlignment: MainAxisAlignment.center,
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                FittedBox(
-                                  fit: BoxFit.scaleDown,
-                                  child: Text(
-                                    address.name,
-                                    style: styles.textStyleDialogOptions,
+                                Expanded(
+                                  flex: 1,
+                                  child: FittedBox(
+                                    fit: BoxFit.scaleDown,
+                                    child: Text(
+                                      address.name,
+                                      style: styles.textStyleDialogOptions,
+                                    ),
                                   ),
                                 ),
                                 FittedBox(
@@ -121,13 +121,12 @@ class AddressListItem extends ConsumerWidget {
                           ),
                         ],
                       ),
-                      Padding(
-                        padding:
-                            const EdgeInsetsDirectional.only(top: 4, start: 20),
-                        child: BalanceRowWidget(address: address),
-                      )
-                    ],
-                  ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsetsDirectional.only(top: 4, start: 20),
+                      child: BalanceRowWidget(address: address),
+                    ),
+                  ],
                 ),
               ],
             ),

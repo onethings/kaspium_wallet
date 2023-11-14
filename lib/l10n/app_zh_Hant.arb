@@ -181,7 +181,7 @@
   "restartSetupButton":"重新設定",
   "scanQrCode":"掃描二維碼",
   "scanQrCodeError":"解析二維碼已失敗",
-  "secretInfo":"下一屏，將會看到您的助記詞，它是訪問資金的密碼。請確保備份好，且不要與任何人透露。",
+  "secretInfo":"下一步，將會看到您的助記詞，它是訪問資金的密碼。請確保備份好，且不要與任何人透露。",
   "secretInfoHeader":"安全第一！",
   "secretPhrase":"助記詞",
   "secretWarning":"如果手機遺失或此程式卸載，您將需要助記詞恢覆錢包訪問！",
