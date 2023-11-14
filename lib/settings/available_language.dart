@@ -71,8 +71,8 @@ enum AvailableLanguage {
   // Non-latin a/o not know where to sort them in
   ARABIC("ar", "العَرَبِيَّة‎ (ar)"),
   BULGARIAN("bg", "Български (bg)"),
-  CHINESE("zh", "简体中文 (zh)"),
-  TraditionalCHINESE("zh_Hant", "繁體中文 (zh-tw)"), //add Traditional Chinese
+  SimpleCHINESE("zh_Hans", "简体中文 (zh-hans)"),
+  TraditionalCHINESE("zh_Hant", "繁體中文 (zh-hant)"), //add Traditional Chinese
   HINDI("hi", "हिन्दी (hi)"),
   JAPANESE("ja", "日本語 (ja)"),
   KOREAN("ko", "한국어 (ko)"),
@@ -111,8 +111,10 @@ class LanguageSetting implements SettingSelectionItem {
     String localeStr = getLocaleString();
     if (localeStr == 'default') {
       return null;
-    } else if (localeStr == 'zh-Hans') {
-      return Locale.fromSubtags(languageCode: 'zh', scriptCode: localeStr.split('-')[1]);
+    } else if (localeStr == 'zh-Hans' || localeStr == 'zh-CN' || localeStr == 'zh_CN' || localeStr == 'zh_Hans') {
+      return Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans'
+          // scriptCode: localeStr.split('-')[1]
+          );
     } else if (localeStr == 'zh-Hant' ||
         localeStr == 'zh_Hant' ||
         localeStr == 'zh-Hant-TW' ||
