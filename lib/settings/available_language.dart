@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:io'; //add by me
 
 import '../l10n/l10n.dart';
 import 'setting_item.dart';
@@ -109,6 +110,7 @@ class LanguageSetting implements SettingSelectionItem {
 
   Locale? getLocale() {
     String localeStr = getLocaleString();
+    print(Platform.localeName + " //Platform.localeName");
     if (localeStr == 'default') {
       return null;
     } else if (localeStr == 'zh-Hans' || localeStr == 'zh-CN' || localeStr == 'zh_CN' || localeStr == 'zh_Hans') {
@@ -124,6 +126,7 @@ class LanguageSetting implements SettingSelectionItem {
         localeStr == 'zh_TW' ||
         localeStr == 'zh_HK' ||
         localeStr == 'zh_Hant_TW' ||
+        Platform.localeName == 'zh_TW' ||
         localeStr == 'zh_Hant_HK') {
       return Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant');
     }
