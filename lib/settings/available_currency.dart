@@ -42,6 +42,7 @@ enum AvailableCurrencies {
   // VES,
   ZAR,
   VND,
+  MMK,
 }
 
 /// Represent the available authentication methods our app supports
@@ -136,6 +137,8 @@ class AvailableCurrency extends SettingSelectionItem {
         return "Ukraine Hryvnia";
       case "VND":
         return "Vietnamese Đồng";
+      case "MMK":
+        return "Myanmar ကျပ်";
       case "USD":
       default:
         return "US Dollar";
@@ -220,6 +223,8 @@ class AvailableCurrency extends SettingSelectionItem {
         return "₴";
       case "VND":
         return "₫";
+      case "MMK":
+        return "Ks";
       case "USD":
       default:
         return "\$";
