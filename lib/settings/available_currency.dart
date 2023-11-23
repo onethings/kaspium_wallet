@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'setting_item.dart';
 
 enum AvailableCurrencies {
+  USD, // US Dollar
   AED, // United Arab Emirates Dirham (د.إ)
   AFN, // Afghan Afghani (؋)
   ALL, // Albanian Lek (L)
@@ -87,6 +88,9 @@ enum AvailableCurrencies {
   LRD, // Liberian Dollar ($)
   LSL, // Lesotho Loti (L)
   LYD, // Libyan Dinar (LD)
+  EUR, // EURO
+  GBP, //
+  JPY, //
   MAD, // Moroccan Dirham (د.م.)
   MDL, // Moldovan Leu (MDL)
   MGA, // Malagasy Ariary (Ar)
@@ -255,6 +259,10 @@ class AvailableCurrency extends SettingSelectionItem {
         return "Djiboutian Franc";
       case "DKK":
         return "Danish Krone";
+      case "EUR":
+        return "Euro";
+      case "GBP":
+        return "Great Britain Pound";
       case "DOP":
         return "Dominican Peso";
       case "DZD":
@@ -317,6 +325,8 @@ class AvailableCurrency extends SettingSelectionItem {
         return "Jamaican Dollar";
       case "JOD":
         return "Jordanian Dinar";
+      case "JPY":
+        return "Japanese Yen";
       case "KES":
         return "Kenyan Shilling";
       case "KGS":
@@ -589,6 +599,10 @@ class AvailableCurrency extends SettingSelectionItem {
         return "Nfk";
       case "ETB":
         return "ETB";
+      case "EUR":
+        return "€";
+      case "GBP":
+        return "£";
       case "FJD":
         return "\$";
       case "FKP":
@@ -641,6 +655,8 @@ class AvailableCurrency extends SettingSelectionItem {
         return "\$";
       case "JOD":
         return "JD";
+      case "JPY":
+        return "¥";
       case "KES":
         return "KSh";
       case "KGS":

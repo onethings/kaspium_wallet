@@ -15,8 +15,7 @@ class CoinGeckoPrice with _$CoinGeckoPrice {
     required Decimal priceBtc,
   }) = _CoinGeckoPrice;
 
-  factory CoinGeckoPrice.fromJson(Map<String, dynamic> json) =>
-      _$CoinGeckoPriceFromJson(json);
+  factory CoinGeckoPrice.fromJson(Map<String, dynamic> json) => _$CoinGeckoPriceFromJson(json);
 
   static CoinGeckoPrice empty = CoinGeckoPrice(
     currency: AvailableCurrencies.USD,
